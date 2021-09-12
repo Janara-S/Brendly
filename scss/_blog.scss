@@ -1,0 +1,58 @@
+@import "vars";
+
+.blog {
+    margin-bottom: 86px;
+
+    &__title {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-family: $main-font;
+        font-weight: 900;
+        font-style: 900;
+        font-size: 22px;
+        line-height: 26px;
+        line-height: 100%;
+        color: $accent;
+        text-transform: uppercase;
+
+    }
+
+    &__post {
+        padding-bottom: 29px;
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        line-height: 100%;
+        color: #333333;
+
+    }
+
+    &__post2 {
+        padding-bottom: 20px;
+        font-family: main-font;
+        font-style: 400;
+        font-size: 18px;
+        line-height: 22px;
+        line-height: 100%;
+        color: #9A9A9A;
+    }
+
+    &__btn {
+        padding: 4px 25px;
+        border: 1px solid $dark;
+        text-transform: uppercase;
+        color: $dark;
+        font-family: $secondary-font;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        line-height: 100%;
+        text-decoration: none;
+
+
+        &:hover {
+            color: gray;
+        }
+    }
+}
